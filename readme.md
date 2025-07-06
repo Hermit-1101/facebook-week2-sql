@@ -33,7 +33,7 @@ facebook-sql-db/
 ## Sample Data
 The `Insert.sql` file populates the tables with:
 - 5 users
-- 8 Posts with rich tags and media
+- Posts with tags and media
 - Comments, likes, friendships, groups
 - Personal messages between some users
 
