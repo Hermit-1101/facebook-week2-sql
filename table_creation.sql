@@ -101,3 +101,11 @@ CREATE TABLE facebook.Messages (
     FOREIGN KEY (ReceiverID) REFERENCES facebook.Users(UserID),
     CHECK (SenderID <> ReceiverID)
 );
+
+
+ALTER TABLE facebook.Comments
+ADD ParentID INT NULL;
+
+ALTER TABLE facebook.Comments
+ADD CONSTRAINT FK_Comments_Parent
+FOREIGN KEY (ParentID) REFERENCES facebook.Comments(CommentID);
