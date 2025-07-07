@@ -4,7 +4,7 @@ This repository contains SQL scripts, sample data, and authentication code for b
 
 ## Folder Structure
 ```
-facebook-sql-db/
+facebook-week2-sql/
 ├── table_creation.sql      -- Contains all CREATE TABLE statements
 ├── insert_data.sql         -- Contains sample data for testing
 ├── auth_user.py            -- Authenticates user based on email and password
